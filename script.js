@@ -51,3 +51,9 @@ function getWeather() {
 document.addEventListener('contextmenu', function(e) {
     e.preventDefault();
 });
+
+var video = document.getElementById("myVideo");
+video.playbackRate = 0.5;
+function changeSpeed(rate){
+    video.playbackRate = rate;
+}
