@@ -57,3 +57,5 @@ video.playbackRate = 0.5;
 function changeSpeed(rate){
     video.playbackRate = rate;
 }
+
+document.getElementById("myVideo").play();
